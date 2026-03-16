@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Prueba</title>
+  <title>Inici | Brian Barber</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -11,25 +11,8 @@
 <header>
   <div class="header-top">
   <div class="logo">
-    <h1>Clínica Veterinària Natura</h1>
-    <p class="slogan">Cuidem el teu animal com si fos nostre</p>
+    <a href="index.html"><img src="images/logo.png" alt="Logo" id="logo_principal"></a>
   </div>
-
-  <!-- Login ràpid -->
-  <div class="login-area">
-    <form class="login-mini" method="POST" action="login.php">
-      <input type="email" name="email" placeholder="Email" required>
-      <input type="password" name="password" placeholder="Contrasenya" required>
-      <button type="submit">Entrar</button>
-    </form>
-
-    <p class="registre-info">
-      Si encara no estàs registrat,
-      <a href="registre.html">crea un compte</a>
-    </p>
-  </div>
-</div>
-
   <nav>
 		  <ul class="menu-principal">
 			<li><a href="index.html">Inici</a></li>
@@ -45,8 +28,8 @@
               </ul>
             </li>
 
-			<li><a href="registre.html">Registre</a></li>
-			<li><a href="contacte.html">Contacte</a></li>
+			<li><a href="login.html">Iniciar sessió</a></li>
+			<!-- <li><a href="contacte.html">Contacte</a></li> -->
 		  </ul>
 		</nav>
   
@@ -55,97 +38,34 @@
 <main>
 
   <section class="hero">
-    <h2>Benvinguts a la Clínica Veterinària Natura</h2>
+    <h2>Benvinguts a Brian Barber</h2>
     <p>
-      Oferim serveis veterinaris integrals amb professionalitat,
-      confiança i tecnologia.
+      El teu espai d'estil i tradició al cor de Badalona. Transformem la teva imatge amb tècniques clàssiques i les últimes tendències en talls masculins.
     </p>
   </section>
 
   <!-- QUI SOM -->
   <section class="apartat">
-    <h3>Qui som</h3>
+    <h3>Passió per la barberia</h3>
     <p>
-      Som un equip de veterinaris amb anys d’experiència, compromesos
-      amb la salut i el benestar dels animals de companyia.
+      Som barbers amb més de 10 anys d'experiencia. A la nostra barberia, no només busquem un bon tall, sinó que gaudeixis d'una experiència de relax i bon tracte. Som especialistes en degradats i cura de la barba.
     </p>
     <a href="qui-som.html">Més informació</a>
   </section>
 
   <!-- PRODUCTES -->
   <section class="apartat">
-    <h3>Serveis</h3>
+    <h3>Què t'oferim?</h3>
     <p>
-      Disposem d’una àmplia gamma de productes: alimentació especialitzada,
-      complements i productes veterinaris.
+      Des de talls degradats (fades) fins a l'afaitat a navalla de tota la vida. Utilizem productes premium per cuidar el teu cabell i la teva pell. Vine a visitar-nos i surt com nou.
     </p>
     <a href="serveis.html">Veure serveis</a>
   </section>
-
-  <!-- CONTACTE -->
-  <section class="apartat">
-    <h3>Contacte</h3>
-
-    <form class="formulari-contacte" method="POST" action="contacte.php">
-
-  <div class="camp-form">
-    <label for="nom">Nom:</label>
-    <input type="text" id="nom" name="nom" required>
-  </div>
-
-  <div class="camp-form">
-    <label for="cognoms">Cognoms:</label>
-    <input type="text" id="cognoms" name="cognoms" required>
-  </div>
-
-  <div class="camp-form">
-    <label for="telefon">Telèfon:</label>
-    <input type="tel" id="telefon" name="telefon" required>
-  </div>
-
-  <div class="camp-form">
-    <label for="email">Email:</label>
-    <input type="email" id="email" name="email" required>
-  </div>
-
-  <div class="camp-form">
-    <label for="consulta">Consulta:</label>
-    <textarea id="consulta" name="consulta" rows="4" required></textarea>
-  </div>
-
-<div class="camp-form">
-  <label for="privadesa"></label>
-  <div class="checkbox-wrapper">
-    <input type="checkbox" id="privadesa" name="privadesa" required>
-    <span>Accepto la política de privadesa</span>
-  </div>
-</div>
-
-
-  <div class="camp-form">
-    <button type="submit">Enviar consulta</button>
-  </div>
-
-</form>
-
-  </section>
-
 </main>
 
 <footer>
-  <div>
-      <h4>Mapa del lloc</h4>
-      <ul>
-        <li><a href="index.html">Inici</a></li>
-        <li><a href="qui-som.html">Qui som</a></li>
-        <li><a href="serveis.html">Serveis</a></li>
-        <li><a href="contacte.html">Contacte</a></li>
-        <li><a href="registre.html">Registre</a></li>
-      </ul>
-    </div>
-
-    <div>
-      <p>© 2026 Clínica Veterinària Natura</p>
+    <div id="copyright_footer">
+      <p>© 2026 Brian Barber</p>
     </div>
 </footer>
 

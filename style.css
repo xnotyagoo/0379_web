@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -8,7 +12,7 @@ body {
 /* ===== HEADER ===== */
 
 header {
-  background-color: #2e8b57;
+  background-color: #313131;
   color: white;
 }
 
@@ -27,6 +31,11 @@ header {
   font-size: 0.9em;
 }
 
+#logo_principal {
+  width: 100px;
+  height: auto;
+}
+
 /* Login mini */
 .login-mini input {
   padding: 5px;
@@ -36,7 +45,7 @@ header {
 .login-mini button {
   padding: 5px 10px;
   background-color: white;
-  color: #2e8b57;
+  color: #313131;
   border: none;
   cursor: pointer;
 }
@@ -68,7 +77,7 @@ header {
 /* ===== NAV ===== */
 
 nav {
-  background-color: #3cb371;
+  background-color: #313131;
 }
 
 /* MENÚ PRINCIPAL */
@@ -100,7 +109,7 @@ nav a,
 /* HOVER */
 nav a:hover,
 .menu-link:hover {
-  background-color: #1a252f;
+  background-color: #4e4e4e;
   border-radius: 4px;
 }
 
@@ -116,7 +125,7 @@ nav a:hover,
   position: absolute;
   top: 100%;
   left: 0;
-  background-color: #2c3e50;
+  background-color: #4e4e4e;
   list-style: none;
   padding: 0;
   margin: 0;
@@ -170,7 +179,7 @@ main {
 .apartat a {
   display: inline-block;
   margin-top: 1em;
-  color: #2e8b57;
+  color: #313131;
   text-decoration: none;
   font-weight: bold;
 }
@@ -207,7 +216,7 @@ main {
 .camp-form button {
   grid-column: 2;
   padding: 0.7em;
-  background-color: #2e8b57;
+  background-color: #313131;
   color: white;
   border: none;
   cursor: pointer;
@@ -271,7 +280,7 @@ main {
 /* FOOTER */
 
 footer {
-  background-color: #2e8b57;
+  background-color: #313131;
   color: #ffffff;
   padding: 30px 20px;
   display: flex;
@@ -282,9 +291,13 @@ footer {
   width: 100%;
 }
 
+#copyright_footer {
+  margin-right: 1px;
+}
+
 /* Columnes del footer */
 footer > div {
-  margin-bottom: 15px;
+  margin-bottom: 5px;
 }
 
 /* Títol */

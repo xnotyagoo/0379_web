@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<header>
+  <div class="header-top">
+  <div class="logo">
+    <a href="index.html"><img src="images/logo.png" alt="Logo" id="logo_principal"></a>
+  </div>
+  <nav>
+		  <ul class="menu-principal">
+			<li><a href="index.html">Inici</a></li>
+			<li><a href="qui-som.html">Qui som</a></li>
+
+			<li class="menu-desplegable">
+              <a href="serveis.html" class="menu-link">Serveis</a>
+              <ul class="submenu">
+                <li><a href="#">Consultes mèdiques</a></li>
+                <li><a href="#">Urgències</a></li>
+                <li><a href="#">Cirurgies</a></li>
+                <li><a href="#">Plans especialitzats</a></li>
+              </ul>
+            </li>
+
+			<li><a href="login.html">Iniciar sessió</a></li>
+			<!-- <li><a href="contacte.html">Contacte</a></li> -->
+		  </ul>
+		</nav>
+  
+</header>
+<body>
+    <div class="login-area">
+        <form class="login-mini" method="POST" action="login.php">
+            <input type="email" name="email" placeholder="Email" required>
+            <input type="password" name="password" placeholder="Contrasenya" required>
+            <button type="submit">Entrar</button>
+          </form>
+
+        <p class="registre-info">
+          Si encara no estàs registrat,
+          <a href="registre.html">crea un compte</a>
+        </p>
+      </div>
+    </div>
+   
+</body>
+</html>
